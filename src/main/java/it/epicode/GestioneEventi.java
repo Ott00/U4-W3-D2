@@ -32,5 +32,6 @@ public class GestioneEventi {
         }
 
         eventoDAO.deleteById(idForTest);
+        entityManager.close();
     }
 }
